@@ -1,5 +1,4 @@
 #include <iostream>
-#include <list>
 #include <math.h>
 #include <cmath>
 using namespace std;
@@ -154,6 +153,18 @@ using namespace std;
 // int main() {
 //     double w;
 //     int category;
+//     if (w<=0)
+//         category = 0;
+//     else if ((0<w)&&(w<=1))
+//         category=1;
+//     else if ((1<w)&&(w<=3))
+//         category=2;
+//     else if ((3<w)&&(w<=10))
+//         category=3;
+//     else if ((10<w)&&(w<=20))
+//         category=4;
+//     else
+//         category=5;
 //     cout << "Enter the weight of the package: ";
 //     cin >> w;
 //     switch (category) {
@@ -161,16 +172,16 @@ using namespace std;
 //             cout << "Invalid input" << endl;
 //             break;
 //         case 1:
-//             cout << "Shipping cost: 3500 som" << endl;
+//             cout << "Shipping cost: 3500" << endl;
 //             break;
 //         case 2:
-//             cout << "Shipping cost: 5500 som" << endl;
+//             cout << "Shipping cost: 5500" << endl;
 //             break;
 //         case 3:
-//             cout << "Shipping cost: 8500 som" << endl;
+//             cout << "Shipping cost: 8500" << endl;
 //             break;
 //         case 4:
-//             cout << "Shipping cost: 10500 som" << endl;
+//             cout << "Shipping cost: 10500" << endl;
 //             break;
 //         case 5:
 //             cout << "The package cannot be shipped" << endl;
